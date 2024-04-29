@@ -7,4 +7,7 @@ class TestImpl : SomeInterface.Child {
         println("hello $foo and $bar and $foobar")
     }
 
+    override val someProperty: String
+        get() = "hi"
+
 }
